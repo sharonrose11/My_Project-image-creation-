@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column{
+    float: right;
+    width: 33.3%;
+    margin-bottom: 8px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 50%;
+      display: block;
+    }
+  }
+  
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 5px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #title
+  {
+    line-height:0px;
+    font-size:15px;
+    color: #a98b5c;
+  }
+  
+  .button {
+    border: 1.9px solid #a98b5c;
+    border-radius:20px;
+    font-family:  'Trebuchet MS';
+    outline: #a98b5c;
+    padding: 12px;
+    background-color: white;
+    color: #a98b5c;
+    text-align: center;
+    cursor: pointer;
+    width: 67%;
+    height: 39px;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  img
+  {
+    border: 1px solid black;
+    border-radius:182px;
+  }
+  table{
+     text-align:center;
+  }
+  #p
+  {
+    font-family:Trebuchet MS;
+    line-height:0px;
+    font-size:20px;
+  }
+  
+  .num
+  {
+      font-family: Trebuchet MS;
+     font-size:27px;
+     line-height:0px;
+  }
+  .cap
+  {
+      font-family: Trebuchet MS;
+     font-size:14px;
+     line-height:0px;
+  }
+  
+  #border{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #table
+  {
+     padding:50px;
+     border: 1px solid pink;
+     background-color:rgb(255,215,194);
+  }
+  #border
+  {
+     background-color:white;
+     border-radius:3px;
+  }
+  
+  #gradient {
+      background: linear-gradient(to bottom left,#994d00, #ffb366);
+      border:1px solid linear-gradient(to bottom left,#994d00, #ffb366);
+      padding:90px;
+      border-radius:12px;
+  }
+*
+{
+    color: #774f0e;
+}
+</style>
+</head>
+<body>
+<center>
+
+<table id="gradient">
+   <tr>
+    <td>
+  
+
+
+<table id="border">
+   <tr>
+     <td>
+          
+
+<table>
+  <div class="row">
+  <div class="column">
+    <div class="card">  
+  <tr>
+    <td>
+      <img src="C:\Users\sharon.rose\Documents\activity\ronaldo.jpg" alt="Jane" style="width:50%">
+    </td>
+    
+  </tr>
+  <tr>
+     <td>  
+     <b> <p id="p"> Cristiano Ronaldo</p></b>
+        <p id="title">Football player</p>     
+    </td>
+
+   </tr>
+  <tr>
+     <td>  
+        <div class="container">
+       
+        <b><p><button class="button">Follow</button></p></b>
+        <b><p><button class="button">Message</button></p></b>
+      </div>
+    </td>
+
+   </tr>
+</div>
+</div>
+
+</table>
+      
+     </td>
+
+
+
+     <td id ="table">
+       <table>
+  <div class="row">
+  <div class="column">
+    <div class="card"> 
+
+          <tr class="r">
+            <td>
+      <b><p class="num">523</p></b>
+      <p class="cap">Posts</p>
+    </td>
+          </tr>
+    
+<tr>
+<td><br><br>
+</td>
+</tr>
+
+    <tr class="r">
+    <td >
+
+      <b><p class="num">1387</p></b>
+      <p class="cap">Likes</p>
+    </td>
+        </tr>
+<tr>
+<td><br><br>
+</td>
+</tr>
+<tr class="r">
+   <td>
+      <b><p class="num">146</p></b>
+      <p class="cap">Followers</p>
+    </td>
+</tr>
+       </table>
+  
+     </td>
+   </tr>
+</div>
+  </div>
+</table>
+
+
+    </td>     
+   </tr>
+</table>
+  
+</center>
+</body>
+</html>
